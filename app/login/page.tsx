@@ -41,7 +41,6 @@ export default function Login(){
                 placeholder="Digite seu usuario"
                 className="w-full rounded-lg border p-3
                 outline-none focus:ring-2 focus:ring-blue-500">
-                    p
                 </input>
             </div>
 
@@ -53,7 +52,6 @@ export default function Login(){
                 placeholder="Digite sua senha"
                 className="w-full rounded-lg border p-3
                 outline-none focus:ring-2 focus:ring-blue-500">
-                    p
                 </input>
             </div>
 
@@ -66,6 +64,6 @@ export default function Login(){
             Entrar
             </button>
         </main>
-                )
-            }
+    )
+    }
 }
