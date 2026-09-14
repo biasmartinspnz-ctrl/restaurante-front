@@ -47,8 +47,8 @@ export default function Login(){
             <div>
                 <label>Senha</label>
                 <input type="password"
-                value={usuario}
-                onChange={(e)=>setUsuario(e.target.value)}
+                value={senha}
+                onChange={(e)=>setSenha(e.target.value)}
                 placeholder="Digite sua senha"
                 className="w-full rounded-lg border p-3"
                 outline-none focus:ring-2 focus:ring-blue-500
@@ -57,14 +57,14 @@ export default function Login(){
             </div>
 
 
-<button 
-onClick={entrar}
-className="w-full rounded-lg bg-blue-600 
-py-3 mt-6 font-semibold text-white hover:bg-blue-800 cursor-pointer"
->
-Entrar
-</button>
-            </main>
-    )
-}
+            <button 
+            onClick={entrar}
+            className="w-full rounded-lg bg-blue-600 
+            py-3 mt-6 font-semibold text-white hover:bg-blue-800 cursor-pointer"
+            >
+            Entrar
+            </button>
+        </main>
+                )
+            }
 }
