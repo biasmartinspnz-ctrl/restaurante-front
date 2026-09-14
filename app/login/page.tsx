@@ -51,8 +51,7 @@ export default function Login(){
                 onChange={(e)=>setSenha(e.target.value)}
                 placeholder="Digite sua senha"
                 className="w-full rounded-lg border p-3
-                outline-none focus:ring-2 focus:ring-blue-500"
->
+                outline-none focus:ring-2 focus:ring-blue-500">
                 </input>
             </div>
 
